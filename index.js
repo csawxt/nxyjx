@@ -10,7 +10,7 @@ const userRouter = require('./router/url')
 app.use('/api', userRouter)
 
 
-app.listen(3007, function () {
+app.listen(80, function () {
   console.log('api server running at http://127.0.0.1:3007')
 })
 
